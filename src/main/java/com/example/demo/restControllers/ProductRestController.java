@@ -1,8 +1,7 @@
 package com.example.demo.restControllers;
 
-import com.example.demo.entities.UserEntity;
-import com.example.demo.services.UserService;
-import org.apache.catalina.User;
+import com.example.demo.entities.ProductEntity;
+import com.example.demo.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users")
-public class UserRestController {
+@RequestMapping
+public class ProductRestController {
 
     @Autowired
-    private UserService userService;
+    private ProductService productService;
 
     @GetMapping("/")
-    public List<UserEntity>find(){
-        return userService.find();
+    public List<ProductEntity>find(){
+        return productService.find();
     }
 }
