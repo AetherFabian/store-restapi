@@ -27,13 +27,17 @@ For initialize the project, use the next command with Maven.
 
 ### Tables diagram
 
+![image](https://user-images.githubusercontent.com/50721208/170808283-70db3830-d993-4add-a1ef-8ee6026713a0.png)
 
 ### Endpoints
 |  Routes  |   EndPoint     |  HTTP   |
 | :------: | :------------: | :-----: |
 | Customer |  /customer/    |  GET    |
-| Store    |  /product/     |  GET    |
-| Users    |  /supplier/    |  GET    |
+| Product  |  /product/     |  GET    |
+| Supplier |  /supplier/    |  GET    |
 
 
+![image](https://user-images.githubusercontent.com/50721208/170808145-95b2dc42-7a95-4b1c-8c1c-714c6d1a23af.png)
+![image](https://user-images.githubusercontent.com/50721208/170808233-61dfb98a-362d-45df-b89e-b80bafee1642.png)
+![image](https://user-images.githubusercontent.com/50721208/170808272-58c49ff4-4e38-43d4-aa8f-55438564e971.png)
 
