@@ -1,7 +1,7 @@
 # 1.3 Backend application development, with access to database
 ## Store API
 
-#### Fabian Eduardo Escobar Galarza - TIDBIS51M - UTCH BIS - IoT Applications
+#### Fabian Eduardo Escobar Galarza - TIDBIS51M - UTCH BIS - CROSS-PLATFORM MOBILE DEVELOPMENT
 
 ## Installation
 Requirements
